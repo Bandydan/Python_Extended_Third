@@ -283,7 +283,7 @@ git branch # удаляет, создает и перечисляет ветки
 
 [онлайн книга про Git](https://git-scm.com/book/ru/v1)
 
-[Домашнее задание](07_homework.md)
+[Домашнее задание](hw07.md)
 
-[Восьмой Урок](08_Linux_vim_git_practice.md)
+[Восьмой Урок](lesson08.md)
 

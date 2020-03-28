@@ -386,6 +386,6 @@ test=# select * from word order by 3, 2 limit 3 offset 3;
 
 [FETCH](http://www.postgresqltutorial.com/postgresql-fetch/)
 
-[Домашка](hw13.md)
+[Домашка](hw12.md)
 
-[Следующий урок](lesson14.md)
+[Следующий урок](lesson13.md)

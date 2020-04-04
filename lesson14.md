@@ -52,8 +52,8 @@ create table vocabulary (id serial, name varchar(255), info text);
 ```
 
 ```sql
-INSERT INTO dicts
-	(title)
+INSERT INTO vocabulary
+	(name)
 VALUES
 	('animals'),
 	('school'),
@@ -62,7 +62,7 @@ VALUES
 	('SF');
 
 INSERT INTO words
-	(word, dict_id)
+	(word, vocabulary_id)
 VALUES
 	('turtle', 1),
 	('pig', 1),
@@ -76,7 +76,7 @@ VALUES
 	('goat', 1);
 
 INSERT INTO words
-	(word, dict_id)
+	(word, vocabulary_id)
 VALUES
 	('desk', 2),
 	('book', 2),
@@ -90,7 +90,7 @@ VALUES
 	('school', 2);
 
 INSERT INTO words
-	(word, dict_id)
+	(word, vocabulary_id)
 VALUES
 	('ray', 3),
 	('thunder', 3),
@@ -104,7 +104,7 @@ VALUES
 	('rain', 3);
 
 INSERT INTO words
-	(word, dict_id)
+	(word, vocabulary_id)
 VALUES
 	('hair', 4),
 	('nail', 4),
@@ -118,7 +118,7 @@ VALUES
 	('head', 4);
 
 INSERT INTO words
-	(word, dict_id)
+	(word, vocabulary_id)
 VALUES
 	('engine', 5),
 	('steel', 5),
@@ -139,7 +139,7 @@ VALUES
 ### 5. Получите результат:
 ```
 +---------+-------+
-| title   | words |
+| name    | words |
 +---------+-------+
 | animals |    10 |
 | school  |    10 |

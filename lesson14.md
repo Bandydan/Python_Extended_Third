@@ -61,7 +61,7 @@ VALUES
 	('human'),
 	('SF');
 
-INSERT INTO words
+INSERT INTO word
 	(word, vocabulary_id)
 VALUES
 	('turtle', 1),
@@ -75,7 +75,7 @@ VALUES
 	('headgehog', 1),
 	('goat', 1);
 
-INSERT INTO words
+INSERT INTO word
 	(word, vocabulary_id)
 VALUES
 	('desk', 2),
@@ -89,7 +89,7 @@ VALUES
 	('pupils', 2),
 	('school', 2);
 
-INSERT INTO words
+INSERT INTO word
 	(word, vocabulary_id)
 VALUES
 	('ray', 3),
@@ -103,7 +103,7 @@ VALUES
 	('grass', 3),
 	('rain', 3);
 
-INSERT INTO words
+INSERT INTO word
 	(word, vocabulary_id)
 VALUES
 	('hair', 4),
@@ -117,7 +117,7 @@ VALUES
 	('arm', 4),
 	('head', 4);
 
-INSERT INTO words
+INSERT INTO word
 	(word, vocabulary_id)
 VALUES
 	('engine', 5),
@@ -132,8 +132,6 @@ VALUES
 	('splace', 5);
 
 ```
-
-
 
 
 ### 5. Получите результат:
